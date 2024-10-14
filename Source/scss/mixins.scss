@@ -1,0 +1,12 @@
+@mixin responsive($breakpoint) {
+    @media (max-width: $breakpoint) {
+      @content;
+    }
+  }
+  
+  .card {
+    @include responsive(768px) {
+      width: 100%;
+    }
+  }
+  

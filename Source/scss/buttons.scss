@@ -1,0 +1,9 @@
+.btn {
+    padding: $base-padding;
+    background-color: $primary-color;
+    border-radius: 5px;
+    color: white;
+    &--secondary {
+      background-color: $secondary-color;
+    }
+  }

@@ -1,0 +1,17 @@
+// _navbar.scss
+nav {
+    background-color: $primary-color;
+    ul {
+      list-style: none;
+      li {
+        display: inline-block;
+        a {
+          color: white;
+          &:hover {
+            color: $secondary-color;
+          }
+        }
+      }
+    }
+  }
+  
